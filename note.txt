@@ -1,0 +1,20 @@
+Chưa hiểu rõ về card và open graph.
+Chưa hiểu rõ về fallback content. Cách sử dụng trong trường hợp dự phòng.
+
+
+https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html#//apple_ref/doc/uid/TP40008193-SW1
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+Đặt ứng dụng chạy có full màn hình không nếu giá trị của content là yes thì có nếu no thì không. Sử dụng cho IOS.
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+Thẻ meta này không có hiệu lực trừ khi bạn chỉ định chế độ toàn màn hình trước tiên như được mô tả trong apple-apple-mobile-web-app-yet.
+
+<meta name="format-detection" content="telephone=no">
+Bật hoặc tắt tính năng tự động phát hiện các số điện thoại có thể có trong trang web trong Safari trên iOS.
+
+
+<meta name = "viewport" content = "width = 320,
+       initial-scale = 2.3, user-scalable = no">
+
+Thay đổi kích thước cửa sổ logic được sử dụng khi hiển thị trang trên iOS.

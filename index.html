@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="register__box">
+            <h1 class="register__title">
+                Register
+            </h1>
+            <form action="" class="register__form">
+                <div class="register__item">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" title="Full name" placeholder="Full Name" required
+                        size="50" autocomplete autofocus>
+                </div>
+                <div class="register__item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" title="Email" placeholder="Email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required autocomplete>
+                </div>
+                <div class="register__item">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"
+                        title="Mật khẩu phải chứa ít nhất 1 ký tự in hoa 1 ký tự thường và số" placeholder="Password"
+                        required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </div>
+                <div class="register__item">
+                    <label for="date">First Name:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="register__item">
+                    <label for="files">Select files:</label>
+                    <input type="file" id="files" name="files" multiple required>
+                </div>
+                <div class="register__item">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
